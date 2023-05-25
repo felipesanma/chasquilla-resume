@@ -11,6 +11,7 @@
     text-align: center;
   }
 }
+
 .ms-experience {
   .timeline {
     width: 100%;
@@ -19,21 +20,26 @@
     line-height: 1.5em;
     list-style: none;
     position: relative;
+
     .timeline-item {
       position: relative;
     }
+
     li {
       margin: 0 0 48px 0;
       padding: 30px;
       border-radius: 15px;
       box-shadow: 0 0 15px 0 rgba(0, 0, 0, .06);
       background: #fff;
+
       &:last-child {
         margin: 0;
       }
+
       .timeline-info {
         margin-top: -40px;
         margin-bottom: 30px;
+
         span {
           @include ease3;
           padding: 10px 15px;
@@ -42,6 +48,7 @@
           box-shadow: 0 0 15px 0 rgba(0, 0, 0, .09);
         }
       }
+
       &:hover {
         .timeline-info {
           span {
@@ -53,6 +60,7 @@
     }
   }
 }
+
 .timeline-info {
   span {
     font-size: 12px;
@@ -63,11 +71,13 @@
 }
 
 .timeline-item {
+
   &:last-child,
   &:after {
     content: none;
   }
 }
+
 .timeline-content {
   .timeline-title {
     margin-top: 15px;
@@ -75,12 +85,14 @@
     font-size: 18px;
     line-height: 22px;
     font-weight: 500;
+
     .sub {
       margin-left: 15px;
       color: $text-777;
       font-size: 14px;
     }
   }
+
   p {
     margin-bottom: 0;
     font-size: 14px;
