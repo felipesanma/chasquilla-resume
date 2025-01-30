@@ -24,3 +24,24 @@
 @import "layout/_footer";
 @import "layout/_sidebar";
 @import "layout/_whats-chat";
+
+.btn-language-toggle {
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-language-toggle:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-language-toggle:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
