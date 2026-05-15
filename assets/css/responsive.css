@@ -489,4 +489,260 @@
     font-size: 30px;
   }
 }
+/* Resume refresh responsive overrides */
+@media only screen and (max-width: 991px) {
+  .resume-hero {
+    min-height: auto;
+    padding: 110px 0 50px;
+  }
+
+  .resume-hero .hero-content .resume-hero-item {
+    max-width: none;
+    gap: 28px;
+    align-items: stretch;
+  }
+
+  .resume-hero .hero-content .resume-hero-copy {
+    max-width: none;
+  }
+
+  .resume-hero .hero-content .resume-hero-copy .ms-hero-title {
+    margin-bottom: 18px;
+    font-size: 48px;
+    line-height: 1;
+  }
+
+  .resume-hero .hero-content .resume-hero-copy .ms-hero-detail {
+    text-align: left;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .resume-hero-panel {
+    width: 100%;
+  }
+
+  .resume-contact-card {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .resume-switch-header {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .resume-switch-controls {
+    width: 100%;
+  }
+
+  .resume-switch-controls button {
+    flex: 1;
+  }
+
+  .resume-switch-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .resume-switch-main h4 {
+    font-size: 28px;
+  }
+
+  .resume-project-tabs {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 10px;
+  }
+
+  .resume-project-tabs button {
+    flex: 0 0 auto;
+  }
+
+  .resume-project-accordion {
+    padding: 18px;
+  }
+
+  .resume-project-card {
+    flex-basis: min(440px, 84vw);
+  }
+
+  .resume-approach-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .resume-public-note {
+    min-height: auto;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .btn-language-toggle {
+    top: 26px;
+    right: 88px;
+  }
+
+  header nav a {
+    top: 22px;
+    right: 24px;
+  }
+
+  .resume-hero {
+    padding-top: 96px;
+  }
+
+  .resume-hero .hero-content .resume-hero-copy .ms-hero-title {
+    font-size: 38px;
+  }
+
+  .resume-hero .hero-content .resume-hero-copy .ms-hero-detail {
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+  .resume-hero-panel,
+  .resume-skill-card,
+  .resume-build-card,
+  .resume-approach-item,
+  .resume-public-note,
+  .resume-contact-card,
+  .ms-experience .timeline li,
+  .ms-project-box {
+    padding: 22px;
+  }
+
+  .resume-approach-principles {
+    grid-template-columns: 1fr;
+  }
+
+  .resume-approach-item {
+    min-height: auto;
+    padding-left: 72px;
+  }
+
+  .resume-approach-item:before {
+    top: 22px;
+    left: 20px;
+  }
+
+  .resume-approach-item:after {
+    top: 70px;
+    left: 40px;
+  }
+
+  .resume-approach-item h3 {
+    font-size: 21px;
+  }
+
+  .resume-public-note h3 {
+    font-size: 23px;
+  }
+
+  .resume-metrics strong {
+    font-size: 24px;
+  }
+
+  .resume-contact-card h2 {
+    font-size: 24px;
+  }
+
+  .resume-contact-card p,
+  .resume-contact-card a {
+    overflow-wrap: anywhere;
+  }
+
+  .ms-about-info ul li {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+
+  .resume-switch-main h4 {
+    font-size: 23px;
+  }
+
+  .resume-switch-header h3 {
+    font-size: 22px;
+  }
+
+  .resume-switch-controls {
+    overflow-x: auto;
+  }
+
+  .resume-switch-controls button {
+    min-width: 128px;
+  }
+
+  .resume-switch-panel {
+    padding: 20px;
+  }
+
+  .resume-compact-card {
+    flex-basis: min(340px, 82vw);
+    min-height: auto;
+  }
+
+  .resume-compact-card h4 {
+    font-size: 22px;
+  }
+
+  .resume-tech-chips {
+    gap: 6px;
+  }
+
+  .resume-tech-chips span {
+    min-height: 26px;
+    font-size: 11px;
+  }
+
+  .resume-building-grid > [class*="col-"] {
+    flex-basis: min(360px, 84vw);
+    max-width: min(360px, 84vw);
+  }
+
+  .resume-project-tabs {
+    margin-bottom: 14px;
+  }
+
+  .resume-project-accordion {
+    padding: 14px;
+  }
+
+  .resume-project-card {
+    flex-basis: min(340px, 82vw);
+    min-height: auto;
+    padding: 20px;
+  }
+
+  .resume-project-card .ms-info {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .resume-project-card .portfolio-img {
+    width: 100%;
+    height: 170px;
+  }
+
+  .resume-project-card .ms-detail {
+    padding: 16px 0 0;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .resume-hero .hero-content .resume-hero-copy .ms-hero-title {
+    font-size: 34px;
+  }
+
+  .resume-hero-actions .resume-btn {
+    width: 100%;
+  }
+
+  .resume-compact-card,
+  .resume-project-card {
+    flex-basis: 82vw;
+  }
+
+  .resume-project-card .portfolio-img {
+    height: 145px;
+  }
+}
 /*# sourceMappingURL=responsive.css.map */
