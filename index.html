@@ -26,6 +26,15 @@
     <!-- Main Style -->
     <link rel="stylesheet" href="assets/css/dark.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <style>
+        html[lang="es"] .lang-en {
+            display: none !important;
+        }
+
+        html[lang="es"] .lang-es {
+            display: inline !important;
+        }
+    </style>
 
 
 </head>
@@ -52,7 +61,7 @@
             <a href="javascript:void(0)" class="ms-sidebar-toggle"><img src="assets/img/icons/menu.svg" class="svg_img"
                     alt="menu"></a>
             <!-- Language Toggle Button -->
-            <button id="language-toggle" class="btn-language-toggle">ES</button>
+            <button id="language-toggle" class="btn-language-toggle">EN</button>
         </nav>
     </header>
     <!-- Header End -->
@@ -1329,7 +1338,7 @@
             const projectTabButtons = document.querySelectorAll("[data-project-tab]");
             const projectCards = document.querySelectorAll("[data-project-cats]");
             const projectRail = document.querySelector(".resume-project-rail");
-            const currentLang = localStorage.getItem("language") || "es";
+            const currentLang = "es";
             setLanguage(currentLang);
 
             toggleButton.addEventListener("click", function () {
