@@ -2,6 +2,8 @@
 
 El repo contiene una web estática en HTML, CSS y JavaScript para presentar experiencia profesional, formación, stack técnico, proyectos públicos y datos de contacto.
 
+Versión actual: `1.1.0`. Los cambios se registran en `CHANGELOG.md`.
+
 ## Uso local
 
 Puedes abrir `index.html` directamente en el navegador o levantar un servidor simple:
