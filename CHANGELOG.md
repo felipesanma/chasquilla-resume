@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.0 - 2026-09-01
+
+- Agrega Mando TV a la sección "Lo que estoy construyendo".
+- Actualiza la versión pública del sitio a `1.3.0`.
+
 ## 1.2.0 - 2026-07-27
 
 - Agrega la experiencia actual como Solutions Engineer en Soyio.
