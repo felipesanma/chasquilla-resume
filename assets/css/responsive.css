@@ -602,6 +602,7 @@
   .resume-hero-panel,
   .resume-skill-card,
   .resume-build-card,
+  .resume-radar-card,
   .resume-approach-item,
   .resume-public-note,
   .resume-contact-card,
@@ -696,6 +697,24 @@
   .resume-building-grid > [class*="col-"] {
     flex-basis: min(360px, 84vw);
     max-width: min(360px, 84vw);
+  }
+
+  .resume-building-radar {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .resume-radar-card {
+    min-height: auto;
+  }
+
+  .resume-radar-links {
+    margin: 18px 0 16px;
+  }
+
+  .resume-radar-list li {
+    grid-template-columns: 1fr;
+    gap: 2px;
   }
 
   .resume-project-tabs {

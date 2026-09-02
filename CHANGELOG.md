@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.4.0 - 2026-09-01
+
+- Rediseña la sección "Lo que estoy construyendo" como un radar compacto de proyectos.
+- Agrupa proyectos en cuatro áreas: privacidad, datos y Chile, herramientas prácticas, y comunidad y feedback.
+- Reemplaza el carrusel horizontal principal por bloques desplegables con enlaces destacados.
+
 ## 1.3.0 - 2026-09-01
 
 - Agrega Mando TV a la sección "Lo que estoy construyendo".
